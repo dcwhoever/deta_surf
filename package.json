@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node index.js",
+    "start": "nohup node index.js > /dev/null 2>&1 &",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
@@ -15,4 +15,3 @@
     "node": ">=14"
   }
 }
-
